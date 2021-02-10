@@ -1,0 +1,7 @@
+---
+# ansible_role_system_nfs/handlers/main.yml
+# Author: MTO 
+# Description: Handlers file for ansible_role_system_nfs
+#
+- name: reload nfs
+  command: 'exportfs -ra'

@@ -1,0 +1,6 @@
+---
+# ansible_role_system_nfs/vars/fedora.yml
+# Author: MTO 
+# Description: Vars Fedora file for ansible_role_system_nfs
+#
+system_nfs_server_daemon: nfs-server

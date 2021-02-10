@@ -1,0 +1,9 @@
+---
+# ansible_role_system_nfs/defaults/main.yml
+# Author: MTO 
+# Description: Defaults file for ansible_role_system_nfs
+#
+system_nfs_exports: []
+
+system_nfs_rpcbind_state: started
+system_nfs_rpcbind_enabled: true
