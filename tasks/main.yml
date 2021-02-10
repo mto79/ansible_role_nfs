@@ -42,4 +42,4 @@
     name: "{{ system_nfs_server_daemon }}" 
     state: started 
     enabled: yes
-  when: (system_nfs_exorts is defined and system_nfs_exports|length)
+  when: (system_nfs_exports is defined and system_nfs_exports|length)
