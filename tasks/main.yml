@@ -5,7 +5,7 @@
 #
 - name: "MAIN - Display system, os, version and release" 
   debug: 
-    msg: "SYSTEM {{ inventory_hostname }} | OS {{ ansible_distribution }} | VERSION {{ ansible_distribution_version }} | RELEASE {{ ansible_distribution_release }}"
+    msg: "ROLE ansible_role_system_nfs | SYSTEM {{ inventory_hostname }} | OS {{ ansible_distribution }} | VERSION {{ ansible_distribution_version }} | RELEASE {{ ansible_distribution_release }}"
 
 - name: "MAIN - Include OS-specific variables."
   include_vars: 
